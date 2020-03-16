@@ -1,5 +1,3 @@
-// custom typefaces
-import "typeface-montserrat"
-import "typeface-merriweather"
+import MUIWrapper from "./mui-root-wrapper"
 
-import "prismjs/themes/prism.css"
+export const wrapRootElement = MUIWrapper
