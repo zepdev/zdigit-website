@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.zdigit.com">
-    <img alt="ZDigit" src="./src/assets/logos/Logo_Zeppelin Digit_Large_Default (1).svg" width="60" />
+    <img alt="ZDigit" src="./src/assets/logos/Logo_Zeppelin Digit_Large_Default@2x.png" width="60" />
   </a>
 </p>
 <h1 align="center">
