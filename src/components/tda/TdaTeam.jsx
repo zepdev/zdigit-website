@@ -2,14 +2,14 @@ import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { useTranslation } from "react-i18next"
 import clsx from "clsx"
-import rene from "../assets/team/rene.png"
-import rebekka from "../assets/team/rebekka.png"
-import christoph from "../assets/team/christoph.png"
-import salvador from "../assets/team/salvador.png"
-import alyssa from "../assets/team/alyssa.png"
-import nils from "../assets/team/nils.png"
-import placeholder from "../assets/team/placeholder.png"
-import Container from "./Container"
+import rene from "../../assets/team/rene.png"
+import rebekka from "../../assets/team/rebekka.png"
+import christoph from "../../assets/team/christoph.png"
+import salvador from "../../assets/team/salvador.png"
+import alyssa from "../../assets/team/alyssa.png"
+import nils from "../../assets/team/nils.png"
+import placeholder from "../../assets/team/placeholder.png"
+import Container from "../Container"
 
 const useStyles = makeStyles(theme => ({
   container: {
@@ -18,6 +18,9 @@ const useStyles = makeStyles(theme => ({
     flexDirection: "column",
     flexBasis: "44%",
     marginBottom: `${theme.space.xl.rem}rem`,
+    [theme.breakpoints.up("md")]: {
+      flexBasis: "22%",
+    },
   },
   name: {
     color: theme.logo.digitBlue.hex,
@@ -31,11 +34,6 @@ const useStyles = makeStyles(theme => ({
   icon: {
     color: theme.logo.digitBlue.hex,
     height: 18,
-  },
-  [`@media (min-width: ${theme.breakpoints.m})`]: {
-    container: {
-      flexBasis: "22%",
-    },
   },
 }))
 
@@ -86,7 +84,7 @@ function Team() {
     },
   ]
   return (
-    <Container variant="spaceBetween" title={t("header.who")}>
+    <Container variant="spaceBetween" title={t("tda.header.who")}>
       {team.map((elem, idx) => (
         <div className={classes.container} key={`teamMember${idx}`}>
           <img src={elem.img} alt={elem.name} className={classes.img} />

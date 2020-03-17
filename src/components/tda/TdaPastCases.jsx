@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { useTranslation } from "react-i18next"
 import clsx from "clsx"
-import Container from "./Container"
+import Container from "../Container"
 import Tabs from "@zlab-de/zel-react/Tabs"
 import Tab from "@zlab-de/zel-react/Tab"
 
@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function PastCases() {
+function TdaPastCases() {
   const classes = useStyles()
   const { t } = useTranslation()
   const [value, setValue] = useState(0)
@@ -61,22 +61,22 @@ function PastCases() {
       </Tabs>
       <div className={classes.paper}>
         <h2 className={clsx(classes.name, "zep-typo--display-6")}>
-          {t(`${cases[value]}.type`)}
+          {t(`tda.${cases[value]}.type`)}
         </h2>
         <p className={clsx(classes.tagline, "zep-typo--bold-h2")}>
-          {t(`${cases[value]}.title`)}
+          {t(`tda.${cases[value]}.title`)}
         </p>
         <p className={classes.bold}>{t("problem")}</p>
         <p className={clsx(classes.margin, "zep-typo--normal-body1")}>
-          {t(`${cases[value]}.problem`)}
+          {t(`tda.${cases[value]}.problem`)}
         </p>
-        <p className={classes.bold}>{t("solution")}</p>
+        <p className={classes.bold}>{t("tda.solution")}</p>
         <p className="zep-typo--normal-body1">
-          {t(`${cases[value]}.solution`)}
+          {t(`tda.${cases[value]}.solution`)}
         </p>
       </div>
     </Container>
   )
 }
 
-export default PastCases
+export default TdaPastCases

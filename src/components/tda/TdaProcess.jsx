@@ -2,20 +2,20 @@ import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import { useTranslation } from "react-i18next"
 import clsx from "clsx"
-import Container from "./Container"
+import Container from "../Container"
 import Contact from "./Contact"
 
 const useStyles = makeStyles(theme => ({
   flex: {
     flexBasis: "100%",
     marginBottom: `${theme.space.xl.rem}rem`,
-    [theme.breakpoints.up("m")]: {
+    [theme.breakpoints.up("md")]: {
       flexBasis: "45%",
       marginBottom: 0,
     },
   },
   name: {
-    color: theme.logo.digitBlue.hex,
+    color: theme.blue.primary,
     marginBottom: `${theme.space.s.rem}rem`,
     fontSize: 18,
   },
@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
     flexBasis: "100%",
     display: "flex",
     flexWrap: "wrap",
-    [theme.breakpoints.up("m")]: {
+    [theme.breakpoints.up("md")]: {
       flexBasis: "49%",
     },
   },
@@ -44,8 +44,8 @@ const useStyles = makeStyles(theme => ({
     marginBottom: `${theme.space.s.rem}rem`,
   },
   number: {
-    background: theme.logo.digitBlue.hex,
-    color: theme.color.global.white.hex,
+    background: theme.blue.primary,
+    color: theme.color.global.white,
     width: 30,
     height: 30,
     padding: 7,
@@ -55,32 +55,32 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-function Process() {
+function TdaProcess() {
   const classes = useStyles()
   const { t } = useTranslation()
   const steps = [
-    t("process.setup"),
-    t("process.prototype"),
-    t("process.pilot"),
-    t("process.support"),
+    t("tda.process.setup"),
+    t("tda.process.prototype"),
+    t("tda.process.pilot"),
+    t("tda.process.support"),
   ]
 
   return (
     <Container
       variant="spaceBetween"
-      title={t("header.how")}
+      title={t("tda.header.how")}
       background="secondary"
     >
       <div className={classes.flex}>
         <p className={clsx(classes.name, "zep-typo--display-6")}>
-          {t("process.name")}
+          {t("tda.process.name")}
         </p>
 
         <p className={clsx(classes.tagline, "zep-typo--bold-h2")}>
-          {t("process.tagline")}
+          {t("tda.process.tagline")}
         </p>
         <p className={clsx(classes.text, "zep-typo--normal-body1")}>
-          {t("process.text")}
+          {t("tda.process.text")}
         </p>
       </div>
       <div className={classes.stepsContainer}>
@@ -93,7 +93,7 @@ function Process() {
               </p>
             </div>
             <p className={clsx(classes.stepsText, "zep-typo--normal-caption")}>
-              {t(`process.step${idx + 1}`)}
+              {t(`tda.process.step${idx + 1}`)}
             </p>
           </div>
         ))}
@@ -103,4 +103,4 @@ function Process() {
   )
 }
 
-export default Process
+export default TdaProcess

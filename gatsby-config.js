@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `${__dirname}/src/assets`,
         name: `assets`,
       },
     },
@@ -65,7 +65,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#0066FF`,
         display: `minimal-ui`,
-        icon: `content/assets/favicon.png`,
+        icon: `src/assets/logos/favicon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

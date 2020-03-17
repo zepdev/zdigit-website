@@ -140,14 +140,14 @@ function Contact() {
   return (
     <div className={classes.container}>
       <p className={clsx(classes.text, "zep-typo--normal-body1")}>
-        {t("contact.text")}
+        {t("tda.contact.text")}
       </p>
       <div className={classes.textContainer}>
         <p className={clsx(classes.text, "zep-typo--normal-caption")}>
-          {t("contact.dataProtection")}
+          {t("tda.contact.dataProtection")}
         </p>
         <a className={clsx(classes.link, "zep-typo--normal-caption")}>
-          {`${t("contact.dataProtectionStatement")}`}
+          {`${t("tda.contact.dataProtectionStatement")}`}
         </a>
       </div>
       <Button
@@ -155,7 +155,7 @@ function Contact() {
         variant="primary"
         onClick={() => setOpen(true)}
       >
-        {t("contact.button")}
+        {t("tda.contact.button")}
       </Button>
       <Dialog
         onClose={() => setOpen(false)}
@@ -164,39 +164,41 @@ function Contact() {
         maxWidth="md"
         fullWidth={true}
       >
-        <DialogTitle id="contact-form-title">{t("contact.button")}</DialogTitle>
+        <DialogTitle id="contact-form-title">
+          {t("tda.contact.button")}
+        </DialogTitle>
         <form noValidate autoComplete="off" className={classes.form}>
           <div className={classes.inputContainer}>
             <Input
               id="name"
-              label={t("contact.name")}
+              label={t("tda.contact.name")}
               type="text"
               className={classes.input}
               value={name}
-              placeholder={t("contact.name")}
+              placeholder={t("tda.contact.name")}
               onChange={handleChange("name")}
               required
               error={!isNameValid}
             />
             <Input
               id="email"
-              label={t("contact.email")}
+              label={t("tda.contact.email")}
               type="email"
               className={classes.input}
               value={email}
-              placeholder={t("contact.email")}
+              placeholder={t("tda.contact.email")}
               onChange={handleChange("email")}
               required
               error={!isEmailValid}
             />
           </div>
           <Input
-            label={t("contact.message")}
+            label={t("tda.contact.message")}
             id="message"
             type="text"
             className={classes.input}
             value={message}
-            placeholder={t("contact.message")}
+            placeholder={t("tda.contact.message")}
             onChange={handleChange("message")}
             required
             error={!isMessageValid}
@@ -210,7 +212,7 @@ function Contact() {
               fullWidth
               onClick={handleSubmit}
             >
-              {t("contact.send")}
+              {t("tda.contact.send")}
             </Button>
           )}
         </form>

@@ -23,7 +23,6 @@ const SEO = ({ description, lang, meta, title }) => {
       }
     `
   )
-
   const metaDescription = description || site.siteMetadata.description
 
   return (
@@ -31,8 +30,8 @@ const SEO = ({ description, lang, meta, title }) => {
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={"ZDigit"}
+      titleTemplate={title ? `%s | ${title}` : ""}
       meta={[
         {
           name: `description`,

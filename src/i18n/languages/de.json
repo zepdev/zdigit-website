@@ -1,69 +1,97 @@
 {
   "overview": {
-    "vision": "vision",
-    "visionText": "Haben Sie ein Problem, das Ihrer Meinung nach digital gelöst werden sollte? Unser Team kann helfen! Wir können Ihnen helfen, mathematische Modelle zu erstellen und Ihre Daten in nützliche Informationen zu verwandeln, egal ob es sich um eine App, ein Dashboard oder ein Webprodukt handelt. Wir werden mit Ihnen vor Ort zusammenarbeiten, um Proof of Concepts und MVPs bereitzustellen, und anschließend unterstützen wir Sie.",
-    "bullet1": "Projektverantwortliche führen Sie durch den Prozess der Zusammenarbeit mit uns",
-    "bullet2": "Data Scientists und Engineers Helfen Sie dabei, zu unterstützen, zu lehren und sich zu entwickeln",
-    "bullet3": "Arbeiten Sie mit uns auf drei Arten; Analytics+, Use Cases, FleetX"
+    "who": "who we are",
+    "tagline": "Digitalisierung der Bauwirtschaft",
+    "strategy": "Zeppelin Digit bündelt als Strategisches Management Center die Expertise des Zeppelin Konzerns in den Bereichen IT, Daten, Infrastruktur, Security & Compliance, um die digitale Transformation des Zeppelin Konzerns und für seine Kunden voranzubringen. Zeppelin Digit wird geleitet von Chief Digital Officer Wolfgang Hahnenberg.Das Expert*innen-Team von Zeppelin Digit steht den Strategischen Geschäftseinheiten des Zeppelin Konzernszur Entwicklung innovativer Produkte und Services zur Verfügung.Gemeinsam erarbeiten Zeppelin Digit und die Strategischen Geschäftseinheiten Lösungen, die Zeppelin zum digitalen Marktführer in der jeweiligen Industrie machen.",
+    "content": "Wir entwickeln innovative Geschäftsmodelle für die Bereiche Bau, Logistik und Infrastruktur um heutige und zukünftige Kundenbedürfnisse noch umfassender und mit digitalen Lösungen zu bedienen."
   },
-  "header": {
-    "what": "Was können wir für dich tun",
-    "how": "Arbeite Mit Uns",
-    "who": "Wer Wir Sind"
+  "ecommerce": {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+    "tagline": "marketing is cool",
+    "who": "ecommerce"
   },
-  "analytics": {
-    "overview": "Mit Analytics+ wollen wir in den SBUs interdisziplinäre Teams aufbauen und gemeinsam mit ihnen datengetriebene Use Cases erarbeiten, um ein zeppelinweites Netzwerk von Experten für Datenanalysen zu bilden. Kommen Sie für 3 Monate in unser Team, um unsere Technologien und Methoden kennenzulernen. Gemeinsam erstellen wir einen kleinen Proof of Concept oder ein Produkt mit minimaler Verfügbarkeit, um ein bestimmtes Problem in Ihrer Abteilung zu lösen. Nachdem Sie mit uns zusammengearbeitet haben, kehren Sie zu Ihrer SBU zurück und kümmern sich in Ihrem eigenen Datenteam um SBU-spezifische Anwendungsfälle. Natürlich unterstützen wir Sie als Team weiterhin bei der Umsetzung der Use Cases, aber mit dem Ziel, das neue Datenteam langfristig unabhängiger zu machen.",
-    "tagline": "Bauen Sie mit uns ein unschlagbares netzwerk auf"
+  "website": {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+    "tagline": "all the things online",
+    "who": "website"
   },
-  "fleetx": {
-    "overview": "Wir treten an mit der Idee die erste wirkliche hersteller-übergreifende Telematik und Asset-Management-Lösung für unsere Kunden bereitzustellen. Unsere Kollegen in den unterschiedlichen SGEs sind Experten im Umgang mit Baumaschinen, Motoren, Baulogistik und Service rund um die Bauwirtschaft. Wir haben das Zeug dazu daten-getriebene Produkte für unsere Kunden zu bauen.",
-    "tagline": "Asset-Management-Lösung"
+  "zaccount": {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+    "tagline": "your single sign on solution",
+    "who": "zaccount"
   },
-  "usecase": {
-    "overview": "Wir arbeiten daran, die Analytik bei Zeppelin weiter voranzutreiben. Haben Sie ein Problem, das eine digitale Lösung benötigt? Möchten Sie Ihre aktuellen Prozesse mit datengetriebenen Entscheidungen optimieren? Reichen Sie einen Anwendungsfall bei uns ein und unser Team wird daran arbeiten, eine datengetriebene Lösung bereitzustellen.",
-    "tagline": "Datengetriebene Lösungen"
+  "communications": {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
+    "tagline": "we do cool stuff",
+    "who": "Strategy, portfolio management & change"
   },
-  "process": {
-    "name": "Machen Sie mit",
-    "tagline": "Unser Prozess",
-    "text": "Wenn Sie Daten haben und ein Problem haben, das Ihrer Meinung nach eine datengetriebene Lösung erfordert, arbeiten Sie mit uns zusammen! Unabhängig davon, unter welche Domain Ihr Projekt passt (FleetX, Analytics + oder ein Anwendungsfall), ist der Prozess der Zusammenarbeit mit uns ähnlich und wir werden bei jedem Schritt des Weges mit Ihnen zusammenarbeiten.",
-    "setup": "generierung",
-    "pilot": "pilotierung",
-    "prototype": "prototyp",
-    "support": "unterstutzung",
-    "step1": "Bringen Sie uns ein Problem mit und wir werden mit Ihnen zusammenarbeiten, um mögliche Lösungen für das Brainstorming und die Roadmap zu finden.",
-    "step2": "Arbeiten Sie mit technischen Experten zusammen, um die Machbarkeit Ihrer Lösung zu testen und einen Prototyp für Stakeholder zu erstellen.",
-    "step3": "Arbeiten Sie in Sprints, um eine endgültige Lösung fertigzustellen. Eine MVP-App, Website, ein Modell oder ein Dashboard.",
-    "step4": "Bringen Sie Ihre Lösung zurück zu Ihrer SBU und implementieren Sie sie! Wir werden Sie weiterhin bei der Integration Ihrer Lösung oder der Entwicklung Ihrer Lösung zu einem echten Produkt unterstützen."
-  },
-  "contact": {
-    "text": "Wir als Zeppeline haben großes Potenzial im Haus! Lassen Sie uns mitteilen und diskutieren, wie wir mithilfe der Datenanalyse digitale Lösungen für Zeppelin entwickeln können.",
-    "button": "kontaktiere uns",
-    "send": "senden",
-    "name": "name",
-    "email": "email",
-    "message": "nachricht",
-    "dataProtectionStatement": "Datenschutzerklärung",
-    "dataProtection": "Wir verarbeiten Ihre Daten ausschließlich zum Zwecke der Bearbeitung Ihrer Anfrage. Weitere Informationen zum Datenschutz finden Sie in unserer"
-  },
-  "problem": "problem",
-  "solution": "Lösung",
-  "oillab": {
-    "type": "Use Case: ZBM",
-    "title": "Ollabor",
-    "problem": "Im Zeppelin-Öllabor steigt die Anzahl der Ölproben, die von Technikern bewertet werden müssen. Dadurch wird die Arbeitsbelastung höher.",
-    "solution": "Wir haben einen Algorithmus entwickelt, der die Techniker beim Interpretieren der Ölproben unterstützt. In einem Dashboard wird übersichtlich dargestellt, wie der Algorithmus zu seiner Einschätzung kommt. Diese Lösung hilft den Technikern dabei, die hohen Qualitätsstandards zu halten und zu verbessern."
-  },
-  "transver": {
-    "type": "Analytics+: Rental",
-    "title": "TransVER",
-    "problem": "Die Anzahl der Transporte ist zu hoch. Dies führt zu hohen externen und internen Kosten.",
-    "solution": "Wir haben einen Algorithmus entwickelt, der den kurzfristigen Bedarf bestimmter Geräte abschätzen kann. Daher versenden wir keine Ausrüstung, die in den nächsten Tagen an diesem Standort benötigt wird. Auf diese Weise können wir Geld und Zeit sparen und Emissionen reduzieren. "
-  },
-  "sparkplugs": {
-    "type": "Use Case: ZPS",
-    "title": "Sparkplugs",
-    "problem": "Wenn in einem Blockheizkraftwerk eine Zündkerze ausfällt, steht der gesamte Motor still. Dies führt zu vielen ungeplanten Serviceeinsätzen und ggf. hohen Standzeiten.",
-    "solution": "Wir haben einen Algorithmus entwickelt, der die Ausfälle von Zündkerzen frühzeitig vorhersagen kann. Das verbessert die Disposition von Servicemitarbeitern, erleichtert die Fehlerdiagnose und führt zu geringeren Motorstandzeiten."
+  "tda": {
+    "overview": {
+      "vision": "vision",
+      "visionText": "Haben Sie ein Problem, das Ihrer Meinung nach digital gelöst werden sollte? Unser Team kann helfen! Wir können Ihnen helfen, mathematische Modelle zu erstellen und Ihre Daten in nützliche Informationen zu verwandeln, egal ob es sich um eine App, ein Dashboard oder ein Webprodukt handelt. Wir werden mit Ihnen vor Ort zusammenarbeiten, um Proof of Concepts und MVPs bereitzustellen, und anschließend unterstützen wir Sie.",
+      "bullet1": "Projektverantwortliche führen Sie durch den Prozess der Zusammenarbeit mit uns",
+      "bullet2": "Data Scientists und Engineers Helfen Sie dabei, zu unterstützen, zu lehren und sich zu entwickeln",
+      "bullet3": "Arbeiten Sie mit uns auf drei Arten; Analytics+, Use Cases, FleetX"
+    },
+    "header": {
+      "what": "Was können wir für dich tun",
+      "how": "Arbeite Mit Uns",
+      "who": "Wer Wir Sind"
+    },
+    "analytics": {
+      "overview": "Mit Analytics+ wollen wir in den SBUs interdisziplinäre Teams aufbauen und gemeinsam mit ihnen datengetriebene Use Cases erarbeiten, um ein zeppelinweites Netzwerk von Experten für Datenanalysen zu bilden. Kommen Sie für 3 Monate in unser Team, um unsere Technologien und Methoden kennenzulernen. Gemeinsam erstellen wir einen kleinen Proof of Concept oder ein Produkt mit minimaler Verfügbarkeit, um ein bestimmtes Problem in Ihrer Abteilung zu lösen. Nachdem Sie mit uns zusammengearbeitet haben, kehren Sie zu Ihrer SBU zurück und kümmern sich in Ihrem eigenen Datenteam um SBU-spezifische Anwendungsfälle. Natürlich unterstützen wir Sie als Team weiterhin bei der Umsetzung der Use Cases, aber mit dem Ziel, das neue Datenteam langfristig unabhängiger zu machen.",
+      "tagline": "Bauen Sie mit uns ein unschlagbares netzwerk auf"
+    },
+    "fleetx": {
+      "overview": "Wir treten an mit der Idee die erste wirkliche hersteller-übergreifende Telematik und Asset-Management-Lösung für unsere Kunden bereitzustellen. Unsere Kollegen in den unterschiedlichen SGEs sind Experten im Umgang mit Baumaschinen, Motoren, Baulogistik und Service rund um die Bauwirtschaft. Wir haben das Zeug dazu daten-getriebene Produkte für unsere Kunden zu bauen.",
+      "tagline": "Asset-Management-Lösung"
+    },
+    "usecase": {
+      "overview": "Wir arbeiten daran, die Analytik bei Zeppelin weiter voranzutreiben. Haben Sie ein Problem, das eine digitale Lösung benötigt? Möchten Sie Ihre aktuellen Prozesse mit datengetriebenen Entscheidungen optimieren? Reichen Sie einen Anwendungsfall bei uns ein und unser Team wird daran arbeiten, eine datengetriebene Lösung bereitzustellen.",
+      "tagline": "Datengetriebene Lösungen"
+    },
+    "process": {
+      "name": "Machen Sie mit",
+      "tagline": "Unser Prozess",
+      "text": "Wenn Sie Daten haben und ein Problem haben, das Ihrer Meinung nach eine datengetriebene Lösung erfordert, arbeiten Sie mit uns zusammen! Unabhängig davon, unter welche Domain Ihr Projekt passt (FleetX, Analytics + oder ein Anwendungsfall), ist der Prozess der Zusammenarbeit mit uns ähnlich und wir werden bei jedem Schritt des Weges mit Ihnen zusammenarbeiten.",
+      "setup": "generierung",
+      "pilot": "pilotierung",
+      "prototype": "prototyp",
+      "support": "unterstutzung",
+      "step1": "Bringen Sie uns ein Problem mit und wir werden mit Ihnen zusammenarbeiten, um mögliche Lösungen für das Brainstorming und die Roadmap zu finden.",
+      "step2": "Arbeiten Sie mit technischen Experten zusammen, um die Machbarkeit Ihrer Lösung zu testen und einen Prototyp für Stakeholder zu erstellen.",
+      "step3": "Arbeiten Sie in Sprints, um eine endgültige Lösung fertigzustellen. Eine MVP-App, Website, ein Modell oder ein Dashboard.",
+      "step4": "Bringen Sie Ihre Lösung zurück zu Ihrer SBU und implementieren Sie sie! Wir werden Sie weiterhin bei der Integration Ihrer Lösung oder der Entwicklung Ihrer Lösung zu einem echten Produkt unterstützen."
+    },
+    "contact": {
+      "text": "Wir als Zeppeline haben großes Potenzial im Haus! Lassen Sie uns mitteilen und diskutieren, wie wir mithilfe der Datenanalyse digitale Lösungen für Zeppelin entwickeln können.",
+      "button": "kontaktiere uns",
+      "send": "senden",
+      "name": "name",
+      "email": "email",
+      "message": "nachricht",
+      "dataProtectionStatement": "Datenschutzerklärung",
+      "dataProtection": "Wir verarbeiten Ihre Daten ausschließlich zum Zwecke der Bearbeitung Ihrer Anfrage. Weitere Informationen zum Datenschutz finden Sie in unserer"
+    },
+    "problem": "problem",
+    "solution": "Lösung",
+    "oillab": {
+      "type": "Use Case: ZBM",
+      "title": "Ollabor",
+      "problem": "Im Zeppelin-Öllabor steigt die Anzahl der Ölproben, die von Technikern bewertet werden müssen. Dadurch wird die Arbeitsbelastung höher.",
+      "solution": "Wir haben einen Algorithmus entwickelt, der die Techniker beim Interpretieren der Ölproben unterstützt. In einem Dashboard wird übersichtlich dargestellt, wie der Algorithmus zu seiner Einschätzung kommt. Diese Lösung hilft den Technikern dabei, die hohen Qualitätsstandards zu halten und zu verbessern."
+    },
+    "transver": {
+      "type": "Analytics+: Rental",
+      "title": "TransVER",
+      "problem": "Die Anzahl der Transporte ist zu hoch. Dies führt zu hohen externen und internen Kosten.",
+      "solution": "Wir haben einen Algorithmus entwickelt, der den kurzfristigen Bedarf bestimmter Geräte abschätzen kann. Daher versenden wir keine Ausrüstung, die in den nächsten Tagen an diesem Standort benötigt wird. Auf diese Weise können wir Geld und Zeit sparen und Emissionen reduzieren. "
+    },
+    "sparkplugs": {
+      "type": "Use Case: ZPS",
+      "title": "Sparkplugs",
+      "problem": "Wenn in einem Blockheizkraftwerk eine Zündkerze ausfällt, steht der gesamte Motor still. Dies führt zu vielen ungeplanten Serviceeinsätzen und ggf. hohen Standzeiten.",
+      "solution": "Wir haben einen Algorithmus entwickelt, der die Ausfälle von Zündkerzen frühzeitig vorhersagen kann. Das verbessert die Disposition von Servicemitarbeitern, erleichtert die Fehlerdiagnose und führt zu geringeren Motorstandzeiten."
+    }
   }
 }

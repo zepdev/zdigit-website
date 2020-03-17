@@ -8,29 +8,27 @@ const useStyles = makeStyles(theme => ({
   container: {
     paddingTop: 30,
     paddingBottom: 30,
-    paddingLeft: 15,
-    paddingRight: 15,
-    [theme.breakpoints.up("s")]: {
+    paddingLeft: 30,
+    paddingRight: 30,
+    [theme.breakpoints.up("sm")]: {
       paddingLeft: 60,
       paddingRight: 60,
     },
-    [theme.breakpoints.up("m")]: {
+    [theme.breakpoints.up("md")]: {
       paddingTop: 60,
       paddingBottom: 60,
       paddingLeft: 90,
       paddingRight: 90,
     },
-    [theme.breakpoints.up("l")]: {
+    [theme.breakpoints.up("lg")]: {
       paddingTop: 90,
       paddingBottom: 90,
-      paddingLeft: 170,
-      paddingRight: 170,
     },
     [theme.breakpoints.up("xl")]: {
       paddingTop: 90,
       paddingBottom: 90,
-      paddingLeft: 300,
-      paddingRight: 300,
+      margin: "0 auto",
+      width: 1440,
     },
   },
   secondary: {
@@ -80,26 +78,28 @@ function Container({
   const classes = useStyles()
   return (
     <div
-      className={clsx(classes.container, {
+      className={clsx({
         [classes.secondary]: background === "secondary",
         [classes.primary]: background === "primary",
       })}
     >
-      {title && <Heading>{title}</Heading>}
-      {subtitle && (
-        <p className={clsx(classes.subtitle, "zep-typo--normal-body2")}>
-          {subtitle}
-        </p>
-      )}
-      <div
-        className={clsx(
-          {
-            [classes[variant]]: variant !== undefined,
-          },
-          classNameProp
+      <div className={classes.container}>
+        {title && <Heading>{title}</Heading>}
+        {subtitle && (
+          <p className={clsx(classes.subtitle, "zep-typo--normal-body2")}>
+            {subtitle}
+          </p>
         )}
-      >
-        {children}
+        <div
+          className={clsx(
+            {
+              [classes[variant]]: variant !== undefined,
+            },
+            classNameProp
+          )}
+        >
+          {children}
+        </div>
       </div>
     </div>
   )

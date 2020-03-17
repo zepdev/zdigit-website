@@ -16,7 +16,7 @@ const theme = createMuiTheme({
     gray: "#eceeef",
   },
   logo: guidelines.logo,
-  digit: guidelines.theme.blue,
+  blue: guidelines.theme.blue,
   indigo: guidelines.theme.indigo,
   red: guidelines.theme.red,
   yellow: guidelines.theme.yellow,

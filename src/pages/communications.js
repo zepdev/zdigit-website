@@ -2,9 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ZAccount from "../components/products/ZAccount"
-import Ecommerce from "../components/products/Ecommerce"
-import Website from "../components/products/Website"
+import StrategyOverview from "../components/communications/StrategyOverview"
 
 const Homepage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -12,9 +10,7 @@ const Homepage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO />
-      <ZAccount />
-      <Ecommerce />
-      <Website />
+      <StrategyOverview />
     </Layout>
   )
 }
