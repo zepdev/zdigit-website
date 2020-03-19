@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/Layout"
 import Overview from "../components/homepage/Overview"
+import "@zlab-de/zel-react/zel.css"
 
 const Homepage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title

@@ -74,14 +74,15 @@ module.exports = {
         icon: `src/assets/logos/favicon.png`,
       },
     },
-    {
-      resolve: "gatsby-plugin-material-ui",
-      options: {
-        stylesProvider: {
-          injectFirst: true,
-        },
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-material-ui",
+    //   options: {
+    //     stylesProvider: {
+    //       injectFirst: true,
+    //     },
+    //   },
+    // },
+    "gatsby-theme-material-ui",
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
