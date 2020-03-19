@@ -1,15 +1,9 @@
 import React from "react"
 import MuiLink from "@material-ui/core/Link"
-import { Link as GastsbyLink } from "gatsby"
+import { Link as GatsbyLink } from "gatsby"
 
-function Link(props) {
-  return (
-    <MuiLink
-      component={GastsbyLink}
-      {...props}
-      style={{ textDecoration: "none" }}
-    />
-  )
-}
+const Link = React.forwardRef(function Link(props, ref) {
+  return <MuiLink component={GatsbyLink} ref={ref} {...props} />
+})
 
 export default Link

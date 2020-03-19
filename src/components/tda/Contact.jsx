@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Link from "../Link"
 import { makeStyles } from "@material-ui/core/styles"
 import { useTranslation } from "react-i18next"
 import clsx from "clsx"
@@ -146,9 +147,12 @@ function Contact() {
         <p className={clsx(classes.text, "zep-typo--normal-caption")}>
           {t("tda.contact.dataProtection")}
         </p>
-        <a className={clsx(classes.link, "zep-typo--normal-caption")}>
+        <Link
+          to="/protection"
+          className={clsx(classes.link, "zep-typo--normal-caption")}
+        >
           {`${t("tda.contact.dataProtectionStatement")}`}
-        </a>
+        </Link>
       </div>
       <Button
         className={classes.button}

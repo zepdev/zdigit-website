@@ -6,9 +6,15 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/src/content`,
         name: `blog`,
       },
     },
@@ -55,7 +61,7 @@ module.exports = {
         useLangKeyLayout: false,
       },
     },
-    `gatsby-plugin-feed`,
+    `gatsby-plugin-feed-mdx`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -66,6 +72,14 @@ module.exports = {
         theme_color: `#0066FF`,
         display: `minimal-ui`,
         icon: `src/assets/logos/favicon.png`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-material-ui",
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
       },
     },
     `gatsby-plugin-react-helmet`,

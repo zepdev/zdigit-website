@@ -12,6 +12,8 @@ import communicationsLogo from "../assets/logos/communicationsLogo.png"
 import productsLogo from "../assets/logos/productsLogo.png"
 import tdaLogo from "../assets/logos/tdaLogo.png"
 import ArrowDown from "./icons/ArrowDown"
+import "../i18n/i18n"
+import "@zlab-de/zel-react/zel.css"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -40,13 +42,6 @@ const useStyles = makeStyles(theme => ({
       left: "65%",
       transform: "translate(-55%, -65%)",
     },
-  },
-  logo: {
-    // height: 200,
-    // [theme.breakpoints.up("sm")]: {
-    //   height: 200,
-    //   width: "100%",
-    // },
   },
   top: {
     position: "relative",
@@ -133,7 +128,7 @@ const useHideOnScroll = () => {
 
 const Layout = ({ location, children }) => {
   const classes = useStyles()
-  const { i18n, t } = useTranslation()
+  const { i18n } = useTranslation()
   const [lang, setLang] = useState("en")
   const isHidden = useHideOnScroll()
   const handleSetLang = () => {
@@ -167,7 +162,7 @@ const Layout = ({ location, children }) => {
           alt="geometric print background"
         />
         <div className={classes.container}>
-          <img src={logo} alt="logo" className={classes.logo} />
+          <img src={logo} alt="logo" />
         </div>
         <Link to="section1" smooth={true} offset={0} duration={1000}>
           <IconButton
