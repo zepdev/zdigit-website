@@ -13,6 +13,7 @@ import productsLogo from "../assets/logos/productsLogo.png"
 import tdaLogo from "../assets/logos/tdaLogo.png"
 import ArrowDown from "./icons/ArrowDown"
 import "../i18n/i18n"
+import "../app.css"
 
 const useStyles = makeStyles(theme => ({
   root: {
