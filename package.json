@@ -30,7 +30,7 @@
     "gatsby-remark-responsive-iframe": "^2.2.34",
     "gatsby-source-filesystem": "^2.1.57",
     "gatsby-theme-material-ui": "^1.0.8",
-    "gatsby-transformer-remark": "^2.6.59",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.3.19",
     "i18next": "^19.3.3",
     "i18next-browser-languagedetector": "^4.0.2",
